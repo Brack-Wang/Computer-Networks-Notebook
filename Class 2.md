@@ -88,6 +88,7 @@ OSI的目的是任一支持某种可用标准的计算机的`应用进程自由`
 
 ### 发展阶段
 `计算机网络中的 K 表示1000;而计算机其他的地方kb表示1024`
+
 1、由单个网络发展为互联网。TCP/IP成为标准协议。internet形成
 
 2、建立三级结构的因特网。NSF建立国家科学基金网（主干网（56Kbit/s），地区网，校园网）
@@ -125,3 +126,24 @@ OSI的目的是任一支持某种可用标准的计算机的`应用进程自由`
 自主是指：计算机之间没有主从关系
 
 **A system that interconnecting multiple autonomous computers in different locaitions with communication equipments, ines, and communcation software(OS,protocols,etc.)for resource sharing, is so called computer network**
+
+## 计算机网络和分布式系统的区别
+分布式系统的多个自治计算机对用户是透明的，实质是多个处理器的存在，面对的却像是一台虚拟的单处理机
+
+在网络中用户必须指定在那一台机器上登录，远程递交任务，明确指定文件传输的源和目的地，并且要管理整个网络
+
+分布式系统建立在计算机网络上
+
+区别在于软件不在于硬件
+
+## 计算机网络的分类
+1、按照传输技术分: 广播网络， 点点网络
+
+2、按规模分： 局域网， 城域网， 广域网， 互联网
+
+3、按拓扑结构： 星型网， 总线网， 树形网，环型网，网状网
+
+4、按交换技术：电路交换，报文交换，分组交换，混合交换网
+
+5、按使用者： 公用网， 专用网
+

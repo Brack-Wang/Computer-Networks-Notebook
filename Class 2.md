@@ -1,3 +1,4 @@
+# 计算机网络发展与前景（续）
 ## 分组交换网
 ### 分组交换网中H1向H5发送分组
 由主机将信息传送到节点交换机/把收到的分组先分组放入缓存（暂时存储）
@@ -60,17 +61,67 @@
 ### 分组交换网的作用
 使得网络从 `以主机为中心` 变为 `以网络为中心`
 
-以主机位中心（主机--终端）
+以主机为中心（主机--终端）
 
-以分组交换网为中西你（分组交换网--主机）
+以分组交换网为中心（分组交换网--主机）
 
 ### 各个网络发展
-` OSI 开放系统互连参考模型（open system interconnection reference model`
-
 体系结构：TCP/IP 局域网：以太网
 ```
 IBM公司的SNA/DNA-->0SI->1974年 TCP/IP
 80年代： 局域网， 以太网， 令牌环
 1984年：为了网络互联的标准化， ISO（国际标准化组织）发布 OSI开放系统互连参考模型（open system interconnection reference model）(ISO7498)
 ```
+#### OSI
+` OSI 开放系统互连参考模型（open system interconnection reference model`
+
 OSI的目的是任一支持某种可用标准的计算机的`应用进程自由`与任何其他支持`同一标准`的计算机应用进程进行通信，而对计算机本身是`透明`的
+```
+做到对计算机本身的所有的硬件软件都是透明的，解决异构的问题
+```
+## 因特网时代
+80年代，internet飞速发展。
+
+本质是 网络的网络。
+
+通过路由器将各个网络进行互联
+
+### 发展阶段
+`计算机网络中的 K 表示1000;而计算机其他的地方kb表示1024`
+1、由单个网络发展为互联网。TCP/IP成为标准协议。internet形成
+
+2、建立三级结构的因特网。NSF建立国家科学基金网（主干网（56Kbit/s），地区网，校园网）
+
+3、从三级结构变成多级结构。1993年若干个商用的ISP网络互通，通过NAP(Network Access Point)实现各个商用公司ISP进行交换流量
+
+```
+因特网分为5级
+1\网络接入点
+2\国家主干网
+3\地区ISP
+4\本地ISP
+5\校园ISP
+```
+```
+三大定律：
+1、摩尔定律
+2、光纤定律（超摩尔定律)：骨干网贷款9月翻倍，十年10000倍
+3、网络价值和用户数平方成正比。联网设备增加N倍，联网效率增加N^2倍速
+```
+
+# 计算机网络的分类
+## 计算机网络的定义
+**网络是计算机和通信技术的集成**
+
+1\通信是计算机网络的基础
+
+2\计算机发展促进communication
+
+3\计算机网络=计算机+通信
+
+**Tenenbaum：一个`互联`网的`自主`的计算机集合**
+互联是指：计算机之间有通信信道的连接
+
+自主是指：计算机之间没有主从关系
+
+**A system that interconnecting multiple autonomous computers in different locaitions with communication equipments, ines, and communcation software(OS,protocols,etc.)for resource sharing, is so called computer network**

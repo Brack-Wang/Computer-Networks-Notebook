@@ -66,10 +66,10 @@
 
 ### 各个网络发展
 ` OSI 开放系统互连参考模型（open system interconnection reference model`
+体系结构：TCP/IP 局域网：以太网
 ```
 IBM公司的SNA/DNA-->0SI->1974年 TCP/IP
 80年代： 局域网， 以太网， 令牌环
 1984年：为了网络互联的标准化， ISO（国际标准化组织）发布 OSI开放系统互连参考模型（open system interconnection reference model）(ISO7498)
 ```
-
 OSI的目的是任一支持某种可用标准的计算机的`应用进程自由`与任何其他支持`同一标准`的计算机应用进程进行通信，而对计算机本身是`透明`的
